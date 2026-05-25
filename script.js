@@ -232,17 +232,17 @@ function setWeatherBackground(weatherDesc) {
     
     // 根据天气描述设置背景图片（支持中英文天气描述）
     if (weatherType.includes('rain') || weatherType.includes('drizzle') || weatherType.includes('雨')) {
-        backgroundImage = 'https://tc-new.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/Ny4i/612X408/rainy.jpg';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f326b148a_1779692326.webp';
     } else if ((weatherType.includes('clear') || weatherType.includes('sun') || weatherType.includes('晴')) && !weatherType.includes('cloud') && !weatherType.includes('多云')) {
-        backgroundImage = 'https://tc.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/TgXm/1920X1080/sunny.jpg';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f32673ca8_1779692326.webp';
     } else if (weatherType.includes('cloud') || weatherType.includes('overcast') || weatherType.includes('多云') || weatherType.includes('阴')) {
-        backgroundImage = 'https://tc-new.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/YfJW/540X360/cloudy.jpg';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f325c706a_1779692325.webp';
     } else if (weatherType.includes('snow') || weatherType.includes('雪')) {
-        backgroundImage = 'https://tc-new.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/F4MJ/1024X697/snowy.jpg';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f326756d4_1779692326.webp';
     } else if (weatherType.includes('thunder') || weatherType.includes('storm') || weatherType.includes('lightning') || weatherType.includes('雷') || weatherType.includes('闪电')) {
-        backgroundImage = 'https://tc.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/Rn8X/474X313/leitian.webp';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f3259ddda_1779692325.webp';
     } else if (weatherType.includes('fog') || weatherType.includes('mist') || weatherType.includes('haze') || weatherType.includes('雾') || weatherType.includes('霾')) {
-        backgroundImage = 'https://tc.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/0DJE/700X398/%E9%9B%BE%E9%9C%BE.jpg';
+        backgroundImage = 'https://img.cdn1.vip/i/6a13f326a1fb1_1779692326.jpg';
     } else {
         // 默认背景图片
         backgroundImage = 'https://tc.z.wiki/autoupload/f/I52rW2iUJFZLBJDpySwU0Kafo_6-hTJekmBMO9zizzGyl5f0KlZfm6UsKj-HyTuv/20250910/TgXm/1920X1080/sunny.jpg';
