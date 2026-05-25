@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气查询</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">天气查询</a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="请输入城市名...">
+            <button id="search-btn">查询</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="current-weather">
+            <div id="weather-info" class="weather-info">
+                <p>请输入城市名称查询天气</p>
+            </div>
+        </section>
+        <section class="forecast">
+            <h2>未来7天天气预报</h2>
+            <div id="forecast-container" class="forecast-container">
+                <p>查询城市后显示天气预报</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
